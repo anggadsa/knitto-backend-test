@@ -1,6 +1,6 @@
-const palindromeAngka = ()=>{
+const palindromeAngka = (num)=>{
     
-    let angka = 175;
+    let angka = num;
     for (i=0; i < 10; i--){
     
         arr = [];
@@ -16,5 +16,5 @@ const palindromeAngka = ()=>{
 }
 
 console.time(`Countdown Time`)
-console.log(palindromeAngka())
+console.log(palindromeAngka(180))
 console.timeEnd(`Countdown Time`)
